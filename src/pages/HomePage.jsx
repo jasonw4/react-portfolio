@@ -16,9 +16,15 @@ export const HomePage = () => {
             </button>
             {clicked && (
             <div>
-                <div className="new-page">
-                    <Button name = "About Me"/>
+                <div className = "buttons">
+                    <div>
+                        <Button name = "About Me"/>
+                    </div>
+                    <div>
+                        <Button name = "Experiences"/>
+                    </div>
                 </div>
+
                 <div className = "container">
                     <h1>Hi, I'm</h1>
                     <h1>Jason</h1>

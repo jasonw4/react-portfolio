@@ -1,15 +1,12 @@
 .custButton1 {
-    position: absolute;
-    top: 100px;
-    left: 300px;
-    background-color: navy;
+    background-color: white;
     border: none;
-    color: white; /* White text */
+    color: #C030ED;/* White text */
     padding: 12px 24px; /* Some padding */
     text-align: center; /* Center text */
     text-decoration: none; /* Remove underline */
     display: inline-block; /* Make it an inline element */
     font-size: 16px; /* Set font size */
     border-radius: 25px;
-
 }
+
