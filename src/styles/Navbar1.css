@@ -5,7 +5,12 @@
   justify-content: center;
   align-items: center;
 }
-
+.image {
+  width: auto;
+  height: auto;
+  max-width: 40px;
+  max-height: 40px;
+}
 .Pages {
   list-style: none;
   display: flex;

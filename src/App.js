@@ -6,12 +6,14 @@ import { Projects } from './pages/Projects';
 import { TechnicalSkills } from './pages/TechnicalSkills';
 import { Education } from './pages/Education';
 import { HomePage } from './pages/HomePage';
+import { Navbar1 } from './components/Navbar1';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
     <Router>
+      <Navbar1/>
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/aboutme" element={<AboutMe/>}/>

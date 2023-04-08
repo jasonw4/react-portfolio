@@ -31,7 +31,6 @@ from {background-position: top;background-size:3000px; }
 to {background-position: -100px 0px;background-size:2750px;}
 
 }
-
 .home-page
 {
   display: flex;
@@ -45,60 +44,5 @@ to {background-position: -100px 0px;background-size:2750px;}
   left: 0;
   background: rgba(75, 75, 250, 0.3);
   border-radius: 3px;
-}
-.home-page .logobutton{
-  text-align:center;
-  color:white;
-  font-family: 'Source Code Pro', monospace;
-  text-transform:uppercase;
-}
-  
-.logobutton {
-    padding: none;
-    border: none;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-}
-  
-.logobutton:hover {
-    transform: scale(1.1);
-}
-  
-.button-clicked .logobutton {
-    position: absolute;
-    transform: translate(0, -300px) scale(0.8);
-    transition: all 0.5s ease-in-out;
-    z-index: -1;
-}
-
-@media (max-height: 650px) {
-    /* For screens with a maximum width of 768px (i.e., tablets and mobile devices) */
-    .button-clicked .logobutton {
-      transform: translate(0, -250px) scale(0.5);
-    }
-  }
-
-
-.image {
-    width: 100px;
-    height: 100px;
-}
-
-.navbar-wrapper {
-  height: 0;
-  overflow: hidden;
-  transition: all 0.5s;
-}
-
-.navbar-wrapper.navbar-expanded {
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
+  z-index: -1;
 }
