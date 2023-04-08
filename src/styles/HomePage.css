@@ -54,6 +54,7 @@ to {background-position: -100px 0px;background-size:2750px;}
 }
   
 .logobutton {
+    padding: none;
     border: none;
     background-color: transparent;
     display: flex;
@@ -71,6 +72,7 @@ to {background-position: -100px 0px;background-size:2750px;}
     position: absolute;
     transform: translate(0, -300px) scale(0.8);
     transition: all 0.5s ease-in-out;
+    z-index: -1;
 }
 
 @media (max-height: 650px) {
@@ -86,89 +88,17 @@ to {background-position: -100px 0px;background-size:2750px;}
     height: 100px;
 }
 
-.container{
+.navbar-wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.navbar-wrapper.navbar-expanded {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-top: 100px;
-}
-
-.container h1:nth-child(1) {
-  color: white;
-  font-family: 'Fira Code', monospace;
-  font-weight: 800;
-  font-size: 20px;
-  margin: 0 0 0 35%;
-  text-align: left;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 100px;
-  animation: type 2s steps(40,end) forwards;
-}
-
-.container h1:nth-child(2) {
-  opacity: 0;
-  font-family: "Work Sans", sans-serif;
-  margin: 0 auto auto auto;
-  background: linear-gradient(to right, #FBF2FF, #DC86FA, #C030ED, #AA00D7, #9600B3,  #770087);
-  font-weight: 80;
-  font-size: 100px;  
-  width: 300px;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  overflow: hidden;
-  animation: shring-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
-}
-
-@keyframes shring-animation {
-  0% {
-    background-position: 0 0;
-    opacity: 0;
-    transform: scaleX(0);
-  }
-  1% {
-    background-position: 0 0;
-    opacity: 1;
-    transform: scaleX(1);
-    border-right: 1px solid white;
-  }
-  50% {
-    background-position: 150px 0;
-    opacity: 1;
-    transform: scaleX(1.1);
-    border-right: 1px solid white;
-  }
-  100% {
-    background-position: 0 0;
-    opacity: 1;
-    transform: scaleX(1);
-    border-right: none;
-  }
-}
-
-@keyframes type {
-  0% {
-    width: 0;
-  }
-  1%, 99%{
-    border-right: 1px solid white;
-  }
-  100%{
-    border-right: none;
-  }
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-
-.buttons {
-  position: relative;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
+  z-index: 1;
 }

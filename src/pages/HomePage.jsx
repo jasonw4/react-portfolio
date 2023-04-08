@@ -1,6 +1,7 @@
 import { React, useState } from 'react';
 import Logo from '../logo.png';
 import { Navbar1 } from "../components/Navbar1";
+import { Link } from 'react-router-dom';
 import "../styles/HomePage.css";
 
 export const HomePage = () => {
@@ -12,15 +13,15 @@ export const HomePage = () => {
     return (
         <div className={`home-page ${clicked ? 'button-clicked' : ''}`}>
             <button className="logobutton" onClick={handleClick}>
-                <img className = "image" src={Logo} alt="logo"></img>
+            {clicked ? (
+                        <Link to="/"><img className="image" src={Logo} alt="logo"/></Link>
+                    ) : (
+                        <img className="image" src={Logo} alt="logo" />
+                    )}
             </button>
             {clicked && (
-            <div>
+            <div className={`navbar-wrapper ${clicked ? 'navbar-expanded' : ''}`}>
                 <Navbar1/>
-                <div className = "container">
-                    <h1>Hi, I'm</h1>
-                    <h1>Jason</h1>
-                </div>
             </div>
             )}
         </div>
