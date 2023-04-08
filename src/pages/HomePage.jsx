@@ -1,7 +1,7 @@
 import { React, useState } from 'react';
 import Logo from '../logo.png';
+import { Navbar1 } from "../components/Navbar1";
 import "../styles/HomePage.css";
-import { Button } from '../components/button';
 
 export const HomePage = () => {
     const [clicked, setClicked] = useState(false);
@@ -16,15 +16,7 @@ export const HomePage = () => {
             </button>
             {clicked && (
             <div>
-                <div className = "buttons">
-                    <div>
-                        <Button name = "About Me"/>
-                    </div>
-                    <div>
-                        <Button name = "Experiences"/>
-                    </div>
-                </div>
-
+                <Navbar1/>
                 <div className = "container">
                     <h1>Hi, I'm</h1>
                     <h1>Jason</h1>
