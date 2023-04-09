@@ -2,15 +2,62 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
+}
+.navbar2 {
+  position: absolute;
+  top: 60px; /* Adjust this value based on your design */
+  right: 0;
+  width: 100px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
+.Pages2 {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: right;
+}
+
+.Pages2 li {
+  margin-bottom: 20px;
+}
+
+.Pages2 li:last-child {
+  margin-bottom: 0;
+}
+
+.Pages2 li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.Pages2 li a:hover {
+  color: rgba(75, 75, 250, 0.3);
+}
+.sidebar{
+  background-color: transparent;
+  border: none;
+}
 .image {
   width: auto;
   height: auto;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 60px;
+  max-height: 60px;
   padding: none;
   justify-content: center;
+  background: transparent;
 }
 .Pages {
   list-style: none;
@@ -43,4 +90,17 @@
 
 .Pages li a:hover {
   color: rgba(75, 75, 250, 0.3);
+}
+
+.sidebar.spin img {
+  animation: spin 0.5s ease-out;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
