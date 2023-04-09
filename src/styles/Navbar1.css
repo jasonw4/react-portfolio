@@ -1,21 +1,26 @@
 .navbar {
-  background-color: #333;
-  height: 60px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
+
 .image {
   width: auto;
   height: auto;
-  max-width: 40px;
-  max-height: 40px;
+  max-width: 100px;
+  max-height: 100px;
+  padding: none;
+  justify-content: center;
 }
 .Pages {
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Pages li {
@@ -37,5 +42,5 @@
 }
 
 .Pages li a:hover {
-  background-color: #555;
+  color: rgba(75, 75, 250, 0.3);
 }
