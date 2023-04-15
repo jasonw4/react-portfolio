@@ -1,5 +1,10 @@
 import React from 'react';
+import "../styles/Experiences.css"
 
 export const Experiences = () => {
-    return (<h1>Hi</h1>)
+    return (
+        <div className="exp">
+            <h1>Hi</h1>
+        </div>
+    )
 }

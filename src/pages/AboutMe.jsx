@@ -1,5 +1,11 @@
 import React from 'react';
+import "../styles/AboutMe.css"
 
 export const AboutMe = () => {
-    return (<h1>Lmao</h1>)
+    return (
+        <div className = "aboutme">
+            <h1>Hi</h1>
+        </div>
+
+    )
 }

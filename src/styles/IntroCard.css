@@ -1,0 +1,49 @@
+.introcard {
+  height: 10vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.header{
+  width: 19ch;
+  animation: typing 2s steps(19), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+.header2{
+  width: 0ch;
+  animation: typing2 2s steps(56), blink .5s step-end infinite alternate;
+  animation-delay: 2s;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes typing2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 56ch;
+    }
+  }
+  
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
