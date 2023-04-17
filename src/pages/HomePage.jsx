@@ -1,6 +1,6 @@
 import { React } from 'react';
 import { IntroCard } from '../components/IntroCard';
-import "../styles/HomePage.css";
+import "../styles/pages/HomePage.css";
 
 export const HomePage = () => {
     return (

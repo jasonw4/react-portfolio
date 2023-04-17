@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/TechnicalSkills.css";
+import "../styles/pages/TechnicalSkills.css";
 
 export const TechnicalSkills = () => {
     return (

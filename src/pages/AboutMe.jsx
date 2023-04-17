@@ -1,6 +1,6 @@
 import React from 'react';
 import { AboutMeCard } from "../components/AboutMeCard";
-import "../styles/AboutMe.css"
+import "../styles/pages/AboutMe.css"
 
 export const AboutMe = () => {
     return (
