@@ -1,32 +1,46 @@
 .introcard {
-  height: 10vh;
+  height: 50vh;
   /*This part is important for centering*/
   display: grid;
   place-items: center;
+  font-size: 20px;
 }
 
 .header{
   width: 19ch;
-  animation: typing 2s steps(19), blink .5s step-end infinite alternate;
+  animation: typing 2s steps(19), .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
   font-family: monospace;
   font-size: 2em;
   color: white;
+  margin-bottom: 5rem;
 }
 .header2{
   width: 0ch;
-  animation: typing2 2s steps(56), blink .5s step-end infinite alternate;
+  animation: typing2 2s steps(22), .5s step-end infinite alternate;
   animation-delay: 2s;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
   font-family: monospace;
   font-size: 2em;
   animation-fill-mode: forwards;
   color: white;
+  margin-bottom: 2rem;
 }
+.header3{
+  width: 0ch;
+  animation: typing3 2s steps(22), .5s step-end infinite alternate;
+  animation-delay: 4s;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 2em;
+  animation-fill-mode: forwards;
+  color: white;
+  margin-bottom: 1rem;
+}
+
 
 @keyframes typing {
   from {
@@ -39,7 +53,16 @@
       width: 0;
     }
     to {
-      width: 56ch;
+      width: 22ch;
+    }
+  }
+
+@keyframes typing3 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 33ch;
     }
   }
   

@@ -8,8 +8,9 @@ export const IntroCard = () => {
                 Hi, I'm Jason Wang.
             </h1>
             <p className = "header2">
-                Welcome to my website. Here you can learn more about me!
+                Welcome to my website.
             </p>
+            <p className = "header3">Here you can learn more about me!</p>
         </div>
     )
 }
