@@ -1,0 +1,86 @@
+.educard {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: monospace;
+    color: white;
+}
+
+.image-container {
+    flex: 0 0 250px;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    animation: show-line 1s ease-in-out forwards;
+}
+
+.info {
+    flex: 1;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    animation: show-line 1s ease-in-out forwards;
+}
+
+
+.more-info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: show-line 1s ease-in-out forwards;
+}
+
+.button {
+    height: 30px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    font-family: monospace;
+    color: white;
+    border: none;
+    background-color: rgb(145, 103, 216);
+}
+
+.button:hover {
+    color: rgb(145, 103, 216);
+    background-color: white;
+}
+
+@keyframes show-line {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px); /* start the animation above the card */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* end the animation at the original position */
+    }
+}

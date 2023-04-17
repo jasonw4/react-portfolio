@@ -16,7 +16,8 @@
 
 
 .abcard h1 {
-    margin-bottom: 30px; /* add some margin between headings */
+    margin-top: 100px;
+    margin-bottom: 10px; /* add some margin between headings */
 }
 
 .abcard h2 {
