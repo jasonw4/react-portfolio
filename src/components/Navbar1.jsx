@@ -26,19 +26,22 @@ export const Navbar1 = () => {
     <div className="navbar2">
         <ul className = "Pages2">
           <li>
-            <Link to="/aboutme" className="navbar-link">About Me</Link>
+            <Link to="/aboutme" className="navbar-link" onClick={handleMenuToggle}>About Me</Link>
           </li>
           <li>
-            <Link to="/edu" className="navbar-link">Education</Link>
+            <Link to="/edu" className="navbar-link" onClick={handleMenuToggle}>Education</Link>
           </li>
           <li>
-            <Link to="/exp" className="navbar-link">Experiences</Link>
+            <Link to="/exp" className="navbar-link" onClick={handleMenuToggle}>Experiences</Link>
           </li>
           <li>
-            <Link to="/pjs" className="navbar-link">Projects</Link>
+            <Link to="/pjs" className="navbar-link" onClick={handleMenuToggle}>Projects</Link>
           </li>
           <li>
-            <Link to="/tskills" className="navbar-link">Skills</Link>
+            <Link to="/tskills" className="navbar-link" onClick={handleMenuToggle}>Skills</Link>
+          </li>
+          <li>
+            <Link to="/cme" className="navbar-link" onClick={handleMenuToggle}>Contact Me</Link>
           </li>
         </ul>
     </div>)}

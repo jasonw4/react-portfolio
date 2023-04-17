@@ -7,6 +7,7 @@ import { TechnicalSkills } from './pages/TechnicalSkills';
 import { Education } from './pages/Education';
 import { HomePage } from './pages/HomePage';
 import { Navbar1 } from './components/Navbar1';
+import { ContactMe } from './pages/ContactMe';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/pjs" element={<Projects/>}/>
         <Route path="/tskills" element={<TechnicalSkills/>}/>
         <Route path="/edu" element={<Education/>}/>
+        <Route path="/cme" element={<ContactMe/>}/>
       </Routes>
     </Router>
     </div>

@@ -1,0 +1,36 @@
+.abcard {
+    opacity: 0; /* hide the card by default */
+    transition: opacity 0.5s ease-in-out; /* add a transition for opacity */
+    color: white;
+    font-family: monospace;
+}
+
+.abcard.show {
+    opacity: 1; /* show the card when the "show" class is added */
+}
+
+.abcard h2{
+    opacity: 0; /* hide the lines by default */
+    animation: show-line 1s ease-in-out forwards; /* add an animation for each line */
+}
+
+
+.abcard h1 {
+    margin-bottom: 30px; /* add some margin between headings */
+}
+
+.abcard h2 {
+    margin-bottom: 90px; /* add some margin above subheadings */
+    max-width: 500px;
+}
+
+@keyframes show-line {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px); /* start the animation above the card */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* end the animation at the original position */
+    }
+}
