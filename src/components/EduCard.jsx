@@ -16,10 +16,9 @@ export const EduCard = () => {
                 <img className="logo" src={BU} alt="bu" />
             </div>
             <div className="info">
-                <h1>I currently attend Boston University,</h1>
-                <h1>and will be graduating with the following: </h1>
-                <h2>Master of Science in Computer Science ~ 2025</h2>
-                <h2>Bachelor of Arts in Computer Science ~ 2025</h2>
+                <h1><center>I currently attend Boston University, and will be graduating with the following:</center></h1>
+                <h3><center>Master of Science in Computer Science ~ 2025</center></h3>
+                <h3><center>Bachelor of Arts in Computer Science ~ 2025</center></h3>
                 <center><button className="button" onClick={toggleMoreInfo}>Selected Coursework</button></center>
                 {showMoreInfo && (
                     <div className="more-info">

@@ -8,21 +8,21 @@
 
 .header{
   width: 19ch;
-  animation: typing 2s steps(19), .5s step-end infinite alternate;
+  animation: typing 2s steps(33), .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  font-family: monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 2em;
   color: white;
   margin-bottom: 5rem;
 }
 .header2{
   width: 0ch;
-  animation: typing2 2s steps(22), .5s step-end infinite alternate;
+  animation: typing2 2s steps(33), .5s step-end infinite alternate;
   animation-delay: 2s;
   white-space: nowrap;
   overflow: hidden;
-  font-family: monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 2em;
   animation-fill-mode: forwards;
   color: white;
@@ -30,11 +30,11 @@
 }
 .header3{
   width: 0ch;
-  animation: typing3 2s steps(22), .5s step-end infinite alternate;
+  animation: typing3 2s steps(33), .5s step-end infinite alternate;
   animation-delay: 4s;
   white-space: nowrap;
   overflow: hidden;
-  font-family: monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 2em;
   animation-fill-mode: forwards;
   color: white;

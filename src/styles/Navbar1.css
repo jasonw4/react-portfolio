@@ -12,7 +12,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  font-family: monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .Pages2 {
@@ -110,3 +110,26 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 900px) {
+  .navbar2 {
+    width: 90%;
+    align-items: flex-start;
+  }
+
+  .Pages2 {
+    flex-direction: row;
+  }
+
+
+  .image {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
+
+
+
+
+
+

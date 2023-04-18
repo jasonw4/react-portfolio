@@ -2,27 +2,22 @@
     opacity: 0; /* hide the card by default */
     transition: opacity 0.5s ease-in-out; /* add a transition for opacity */
     color: white;
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .abcard.show {
     opacity: 1; /* show the card when the "show" class is added */
 }
 
-.abcard h2{
+.abcard h3{
     opacity: 0; /* hide the lines by default */
+    max-width: 500px;
     animation: show-line 1s ease-in-out forwards; /* add an animation for each line */
 }
 
 
 .abcard h1 {
-    margin-top: 100px;
-    margin-bottom: 10px; /* add some margin between headings */
-}
-
-.abcard h2 {
-    margin-bottom: 90px; /* add some margin above subheadings */
-    max-width: 500px;
+    margin-top: 50px; /* add some margin between headings */
 }
 
 @keyframes show-line {

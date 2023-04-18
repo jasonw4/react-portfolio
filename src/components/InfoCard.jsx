@@ -1,4 +1,5 @@
 import React from 'react';
+import "../styles/InfoCard.css";
 
 export const InfoCard = (props) => {
     const name = props.name
@@ -7,7 +8,7 @@ export const InfoCard = (props) => {
     return (
         <div className = "card">
             <h1>{name}</h1>
-            <img src={img} alt="dne"></img>
+            <img className="logo" src={img} alt="dne"></img>
             <div>{desc}</div>
         </div>
     )
