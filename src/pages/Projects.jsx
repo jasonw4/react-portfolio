@@ -1,10 +1,10 @@
 import React from 'react';
 import "../styles/pages/Projects.css";
 import { InfoCard } from "../components/InfoCard";
-import BB from "../bball.png";
-import AG from "../algo.png";
-import SK from "../stock.png";
-import MC from "../misc.png";
+import BB from "../images/bball.png";
+import AG from "../images/algo.png";
+import SK from "../images/stock.png";
+import MC from "../images/misc.png";
 
 export const Projects = () => {
     return (

@@ -1,5 +1,5 @@
 import { React, useState } from 'react';
-import BU from "../bu.png";
+import BU from "../images/bu.png";
 import "../styles/EduCard.css";
 
 

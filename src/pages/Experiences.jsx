@@ -1,10 +1,10 @@
 import React from 'react';
 import "../styles/pages/Experiences.css";
 import { InfoCard } from "../components/InfoCard";
-import BU from "../bu.png";
-import VT from "../vt.png";
-import CP from "../cp.png";
-import CU from "../cu.png";
+import BU from "../images/bu.png";
+import VT from "../images/vt.png";
+import CP from "../images/cp.png";
+import CU from "../images/cu.png";
 
 export const Experiences = () => {
     return (
