@@ -20,7 +20,12 @@
   animation: show-line 1s ease-in-out forwards;
   padding: 20px;
 }
-
+.skillcard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
 .buttons{
   display: flex;
   align-items: center;
@@ -28,17 +33,17 @@
   flex-direction: row;
 }
 
-.button {
+.x {
   height: 30px;
   width: 200px;
   font-family: 'Courier New', Courier, monospace;
   color: white;
   border: none;
   background-color: rgb(145, 103, 216);
-  margin: 30px;
+  margin: 10px;
 }
 
-.button:hover {
+.x:hover {
   color: rgb(145, 103, 216);
   background-color: white;
 }
@@ -53,3 +58,17 @@
       transform: translateY(0); /* end the animation at the original position */
   }
 }
+
+@media screen and (max-width: 768px) {
+  /* Adjust styles for screens with width up to 768px */
+
+  .skillcard,
+  .buttons {
+    flex-direction: column;
+  }
+
+  .x {
+    margin: 5px 0;
+  }
+}
+

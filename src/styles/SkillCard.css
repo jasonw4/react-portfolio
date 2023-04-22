@@ -1,6 +1,7 @@
-.card {
-    width: 300px;
-    padding: 10px;
+.cardskill {
+    width: 250px;
+    height: 140px;
+    padding: 5px;
     background-color: #f7f7f7;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -9,43 +10,48 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.card:hover{
+.cardskill:hover{
   transform: scale(1.05);
   background-color: rgb(145, 103, 216);
   color: #f7f7f7;
 }
 
-.card h1 {
+.cardskill h1 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.card .logo {
-    width: 75px;
-    height: 75px;
+.cardskill .logo {
+    width: auto;
+    height: auto;
+    max-height: 75px;
+    max-width: 100px;
     object-fit: cover;
     margin-bottom: 10px;
 }
 
-.card div {
+.cardskill div {
     font-size: 14px;
 }
 
 @media (max-width: 900px) {
-  .card {
-    width: 100%; 
+  .cardskill {
+    width: 50%; 
+    height: 50%;
     padding: 0px;
   }
   
-  .card h1 {
+  .cardskill h1 {
     font-size: 20px;
   }
-  .card .logo {
-    width: 80px; 
-    height: 80px; 
+  .cardskill .logo {
+    width: auto; 
+    height: auto; 
+    max-width: 80px;
+    max-height: 40px;
   }
   
-  .card div {
+  .cardskill div {
     font-size: 12px;
   }
 }
