@@ -89,3 +89,9 @@ li {
         transform: translateY(0); /* end the animation at the original position */
     }
 }
+
+@media screen and (max-width: 768px) {
+    .image-container {
+        flex: 0 0 150px;
+    }
+}
