@@ -12,28 +12,27 @@ export const Projects = () => {
            <div className="cards">
                 <InfoCard className = "card" name="NBAMaster" img={BB} desc={
                 <ul>
-                    <li>Grade problem sets, proctor exams, and hold office hours for over 200 students</li>
-                    <li>Assist in holding/running discussion sections consisting of 30+ students</li>
-                    <li>Spring 2023: CS132/Linear Algebra</li>
+                    <li>Utilize NBA related APIs to display information about players and teams</li>
+                    <li>Used Firebase to store user info in database and to handle third party OAuth and authentication</li>
+                    <li>Implemented TicketMaster’s Discovery API to display upcoming games and ticket prices</li>
                 </ul>}/>
                 <InfoCard className = "card" name="Algorithm Visualizer" img={AG} desc={
                 <ul>
-                    <li>Tutoring 10+ subjects including computer programming, linear algebra, calculus, etc.</li>
-                    <li>Assess students’ strengths and weaknesses, help them increase test scores by over 50%</li>
-                    <li>Prepare study guides and material catered to the individual student</li>
+                    <li>Created a widget based application that visualizes the execution of several well-known sorting algorithms</li>
+                    <li>Allows users to randomize input and select their desired algorithm</li>
+                    <li>Uses a histogram to visualize random values, and then sorts the histogram by height</li>
                 </ul>}/>
             </div>
             <div className="cards">
                 <InfoCard className = "card" name="Stock Predictor" img={SK} desc={
                 <ul>
-                    <li>Participate in 10 week interview prep program</li>
-                    <li>Analyze and implement advanced algorithms in preparation for technical interviews</li>
+                    <li>Built a simple web application that explores the future of certain stock options</li>
+                    <li>Utilized Yahoo Finance and Facebook APIs to gather stock market prediction information</li>
                 </ul>}/>
                 <InfoCard className = "card" name="Other Projects" img={MC} desc={
                 <ul>
-                    <li>Explored fundamentals of CS and web dev in 3 week accelerated program</li>
-                    <li>Built a front-end website and a Python-based Minesweeper game.</li>
-                    <li>Connected with 5+ Columbia students and alumni, gaining insight on the field of Computer Science</li>
+                    <li>Built applications such as a Minesweeper Game, a text based Wordle implementation, 
+                        and aa personalized Engineering Questionnaire.</li>
                 </ul>}/>
             </div>
         </div>

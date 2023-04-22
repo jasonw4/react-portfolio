@@ -72,3 +72,26 @@
     border-color: transparent
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .introcard {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .header {
+    font-size: 1em;
+    margin-bottom: 2rem;
+  }
+  
+  .header2 {
+    font-size: 1em;
+    margin-bottom: 1rem;
+  }
+  
+  .header3 {
+    font-size: 1em;
+    margin-bottom: 0.5rem;
+  }
+}

@@ -2,7 +2,7 @@ import { React, useState } from 'react';
 import { Link } from 'react-router-dom';
 import "../styles/Navbar1.css";
 import Logo from '../logo.png';
-import Rubiks from "../rubiks.png";
+import Sidebar from "../sidebar.png";
 
 export const Navbar1 = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +18,7 @@ export const Navbar1 = () => {
       <Link to="/"><img className = "image" src={Logo} alt="Logo"></img></Link>
         <ul className = "Pages">
         <button className="sidebar">
-          <img className="image" src={Rubiks} alt="sidebar" onClick={handleMenuToggle}></img>
+          <img className="image" src={Sidebar} alt="sidebar" onClick={handleMenuToggle}></img>
         </button>
         </ul>
     </div>

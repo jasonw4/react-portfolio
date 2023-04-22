@@ -9,10 +9,15 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.card:hover{
+  transform: scale(1.05);
+  background-color: rgb(145, 103, 216);
+  color: #f7f7f7;
+}
+
 .card h1 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: rgb(145, 103, 216);
 }
 
 .card .logo {
@@ -24,7 +29,6 @@
 
 .card div {
     font-size: 14px;
-    color: rgb(145, 103, 216);
 }
 
 @media (max-width: 900px) {

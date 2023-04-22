@@ -53,6 +53,7 @@
 .sidebar{
   background-color: transparent;
   border: none;
+  max-width: 50px;
 }
 .image {
   width: auto;
@@ -114,6 +115,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  /* Add responsive styles here */
+  .image {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
 
 
 
