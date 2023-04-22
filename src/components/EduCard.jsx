@@ -27,15 +27,16 @@ export const EduCard = () => {
                 {showMoreInfo && (
                     <div className="more-info">
                         <h1>Graduate</h1>
-                        <ul>
-                            <li>CS 542 - Intro to Machine Learning</li>
-                        </ul>
+                        <ul><center>
+                            <li>CS 519 - Spark! Software Engineering X-Lab Practicum</li>
+                            <li>DS 561 - Software Engineering Development on Modern Cloud Environments</li>
+                        </center></ul>
                         <h1>Undergraduate</h1>
                         <ul><center>
                             <li>CS 411 - Software Engineering</li>
-                            <li>CS 112 - Intro to CS 2</li>
+                            <li>CS 112 - Intro to CS 2(Data Structures and OOP)</li>
                             <li>CS 330 - Intro to Analysis of Algorithms</li>
-                            <li>CS 237 - Probability in CS</li>
+                            <li>CS 365 - Foundations of Data Science</li>
                         </center></ul>
                         <center><button className="button" onClick={toggleMoreInfo}>Academic Degrees</button></center>
                     </div>

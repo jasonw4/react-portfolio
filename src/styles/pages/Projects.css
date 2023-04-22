@@ -1,6 +1,7 @@
 .projects
 {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   position: absolute;
@@ -12,4 +13,14 @@
   background: rgba(75, 75, 250, 0.3);
   border-radius: 3px;
   z-index: -1;
+}
+
+.cards {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card{
+  margin: 20px;
 }
