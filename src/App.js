@@ -1,5 +1,5 @@
 import { React } from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { AboutMe } from './pages/AboutMe';
 import { Experiences } from './pages/Experiences';
 import { Projects } from './pages/Projects';
@@ -16,13 +16,13 @@ function App() {
     <Router>
       <Navbar1/>
       <Routes>
-        <Route path="/#/" element={<HomePage/>}/>
-        <Route path="/#/aboutme" element={<AboutMe/>}/>
-        <Route path="/#/exp" element={<Experiences/>}/>
-        <Route path="/#/pjs" element={<Projects/>}/>
-        <Route path="/#/tskills" element={<TechnicalSkills/>}/>
-        <Route path="/#/edu" element={<Education/>}/>
-        <Route path="/#/cme" element={<ContactMe/>}/>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/aboutme" element={<AboutMe/>}/>
+        <Route path="/exp" element={<Experiences/>}/>
+        <Route path="/pjs" element={<Projects/>}/>
+        <Route path="/tskills" element={<TechnicalSkills/>}/>
+        <Route path="/edu" element={<Education/>}/>
+        <Route path="/cme" element={<ContactMe/>}/>
       </Routes>
     </Router>
     </div>
