@@ -31,7 +31,7 @@ export const TechnicalSkills = () => {
         },
         {
             title: <h1>Dev Tools</h1>,
-            skills: [<SkillCard key={1} name="Git/Github" img={GT}/>, <SkillCard key={2} name="Visual Studio Code" img={VS}/>, <SkillCard key={3} name="Jupyter Notebooks" img={JN}/>, <SkillCard key={4} name="Firebase" img={FB}/>]
+            skills: [<SkillCard key={1} name="Git" img={GT}/>, <SkillCard key={2} name="Visual Studio Code" img={VS}/>, <SkillCard key={3} name="Jupyter Notebooks" img={JN}/>, <SkillCard key={4} name="Firebase" img={FB}/>]
         }
     ];
 
