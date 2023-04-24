@@ -1,5 +1,5 @@
 .introcard {
-  height: 50vh;
+  height: 60vh;
   /*This part is important for centering*/
   display: grid;
   place-items: center;
@@ -14,7 +14,7 @@
   font-family: 'Courier New', Courier, monospace;
   font-size: 2em;
   color: white;
-  margin-bottom: 5rem;
+  margin-top: 15rem;
 }
 .header2{
   width: 0ch;
