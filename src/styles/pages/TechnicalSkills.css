@@ -15,7 +15,7 @@
   color: white;
   font-family: 'Courier New', Courier, monospace;
   animation: show-line 1s ease-in-out forwards;
-  padding: 20px;
+  padding-top: 250px;
 }
 .skillcard{
   display: flex;
@@ -63,7 +63,9 @@
   .buttons {
     flex-direction: column;
   }
-
+  .content{
+    padding-top: 40px;
+  }
   .x {
     margin: 5px 0;
   }

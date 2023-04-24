@@ -3,6 +3,10 @@
     transition: opacity 0.5s ease-in-out; /* add a transition for opacity */
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    position: fixed; /* Add position property */
+    top: 50%; /* Move the card 50% from the top of the viewport */
+    left: 50%; /* Move the card 50% from the left of the viewport */
+    transform: translate(-50%, -50%); 
 }
 
 .abcard.show {

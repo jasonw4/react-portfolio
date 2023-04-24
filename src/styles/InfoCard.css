@@ -1,4 +1,5 @@
 .card {
+    min-height:275px;
     width: 300px;
     padding: 10px;
     background-color: #f7f7f7;
@@ -33,7 +34,6 @@
 
 @media (max-width: 900px) {
   .card {
-    width: 100%; 
     padding: 0px;
   }
   
